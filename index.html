@@ -3,9 +3,42 @@
 <head>
   <title>my journey</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 
+  <button id="button1">about me</button>
 
+  <div class="clearfix">
+    <img src="guy2.gif" id="player">
+  </div>
+  <div id="hide">
+    <h1>hello</h1>
+    <p>im a full stack developer but most of all im just a guy
+     trying to reach ninja level and evntually jedi</p>
+  </div>
+
+
+
+<script>
+
+
+//when the buttons with these id's are clicked
+$('#button1').click(function () {
+
+    //change the css of id=bg
+    $("#hide").css({'display':'none'});
+
+    //send another alert
+    alert('leave now!');
+  }
+});
+
+
+
+
+</script>
 </body>
 </html>

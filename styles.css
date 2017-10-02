@@ -8,3 +8,42 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#player{
+  margin-top:560px;
+  margin-left: 300px;
+  float:left;
+}
+button{
+  margin-top:760px;
+  margin-left: 384px;
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  outline: none;
+}
+
+#hide{
+    display: block;
+
+}
+h1{
+  color: white;
+  padding-top: 450px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  width:336px;
+  margin-left: 500px;
+}
+
+.clearfix {
+   content: " "; /* Older browser do not support empty content */
+   display: block;
+   height: 0;
+   clear: both;
+}
+
