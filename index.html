@@ -29,11 +29,10 @@
 $('#button1').click(function () {
 
     //change the css of id=bg
-    $("#hide").css({'display':'none'});
+    $("#hide").fadeIn('slow', function() {
+      this.css({'display':'block'});
 
-    //send another alert
-    alert('leave now!');
-  }
+    });
 });
 
 
